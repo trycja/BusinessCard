@@ -18,8 +18,8 @@
 		  <div data-role="main" class="ui-content">
 			<p>Hi, I'm your mobile device</p>
 			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="deviceInfo()">Let me introduce myself!</a>
-		    <button type="button" onClick="onClickFunction">Click Me!</button>
-		  
+			<a href="#Authdetails" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="onClickFunction()">Author info</a>
+			  
 		  </div>
 		  <div data-role="footer" data-position="fixed">
 			<h1>(c) Patrycja Czubienko</h1>
@@ -33,9 +33,19 @@
 			</div>
 			<div role="main" class="ui-content">
 				<p id="deviceDetails">Place for device details ...</p>
+			</div>
+					
+		</div>	
+
+		<div data-role="page" id="Authdetails" data-dialog="true">
+			<div data-role="header" data-theme="a">
+				<h1>It's me</h1>
+			</div>
+						
+			<div role="main" class="ui-content">
 				<p id="authorDetails">Place for author details ...</p>
 			</div>
-		</div>		
+		</div>			
 		
 	</body>
 </html>

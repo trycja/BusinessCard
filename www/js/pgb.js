@@ -7,6 +7,12 @@ function onDeviceReady() {
 	deviceInfo();
 }
 
+function onClickFunction() {
+ 
+  ainfo =  'Patrycja Czubienko'+ '<br>';
+
+	document.getElementById("authorDetails").innerHTML = ainfo;	
+}
 function deviceInfo() {
 
 	info =  'Device Model   : '    + device.model + '<br>' + 
